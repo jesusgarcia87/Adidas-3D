@@ -3,7 +3,11 @@ const card = document.querySelector('.card');
 const container = document.querySelector('.container');
 
 // items 
-const title = 
+const title = document.querySelector('.title');
+const sneaker = document.querySelector('.sneaker img');
+const purchase = document.querySelector('.purchase button');
+const description = document.querySelector('.info h3');
+const sizes = document.querySelector('.sizes');
 
 //moving anima event 
 container.addEventListener('mousemove', (e) => {
@@ -14,6 +18,7 @@ container.addEventListener('mousemove', (e) => {
 //animate in
 container.addEventListener('mouseenter', (e) => {
     card.style.transition = ('none');
+    
 });
 
 //animate out
